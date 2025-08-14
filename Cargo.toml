@@ -3,7 +3,7 @@
 
 [package]
 name = "arm-cci"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
     "Balint Dobszay <balint.dobszay@arm.com>",
     "Imre Kis <imre.kis@arm.com>",
@@ -11,7 +11,7 @@ authors = [
 description = "Arm CoreLink CCI-5x0 Cache Coherent Interconnect driver"
 edition = "2021"
 license = "MIT OR Apache-2.0"
-repository = "https://git.trustedfirmware.org/rust-spmc/arm-cci.git"
+repository = "https://git.trustedfirmware.org/arm-firmware-crates/arm-cci.git"
 keywords = ["arm", "cci", "cache", "coherent", "interconnect"]
 categories = ["hardware-support", "embedded", "no-std", "no-std::no-alloc"]
 readme = "README.md"

@@ -3,7 +3,7 @@
 
 [package]
 name = "arm-cci"
-version = "0.2.1"
+version = "0.3.0"
 authors = [
     "Balint Dobszay <balint.dobszay@arm.com>",
     "Imre Kis <imre.kis@arm.com>",
@@ -18,6 +18,6 @@ readme = "README.md"
 rust-version = "1.88"
 
 [dependencies]
-bitflags = "2.13.1"
-safe-mmio = "0.3.1"
+bitflags = "2.13.2"
+safe-mmio = "0.4.0"
 zerocopy = { version = "0.8", features = ["derive"] }
